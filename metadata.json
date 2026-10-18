@@ -1,0 +1,6 @@
+{
+  "name": "Government Association Voting Portal",
+  "description": "A secure digital election platform for government employee associations to manage nominations, verify voter eligibility, cast anonymous ballots, and publish certified election results.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

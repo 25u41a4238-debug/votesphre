@@ -1,0 +1,1206 @@
+{
+  "associations": [
+    {
+      "id": "assoc-1",
+      "name": "Government Employees Association",
+      "code": "GEA",
+      "description": "Representing central and regional administrative government civil servants.",
+      "active": true,
+      "created_at": "2025-10-18T13:54:47.351Z"
+    },
+    {
+      "id": "assoc-2",
+      "name": "Teachers Association",
+      "code": "TA",
+      "description": "Professional body representing certified public educators and school administrators.",
+      "active": true,
+      "created_at": "2025-12-22T13:54:47.351Z"
+    },
+    {
+      "id": "assoc-3",
+      "name": "Municipal Employees Association",
+      "code": "MEA",
+      "description": "Organizing urban municipal workers, local authorities, and service personnel.",
+      "active": true,
+      "created_at": "2026-02-10T13:54:47.351Z"
+    },
+    {
+      "id": "assoc-4",
+      "name": "Public Health Employees Association",
+      "code": "PHEA",
+      "description": "Dedicated to medical officers, nurses, healthcare inspectors, and clinical staff.",
+      "active": true,
+      "created_at": "2026-04-01T13:54:47.351Z"
+    },
+    {
+      "id": "assoc-5",
+      "name": "Engineering Employees Association",
+      "code": "EEA",
+      "description": "Advancing professional standards for public infrastructure, civil, and electrical engineers.",
+      "active": true,
+      "created_at": "2026-04-21T13:54:47.351Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-1",
+      "employee_id": "EMP-10023",
+      "full_name": "Jane Doe",
+      "email": "jane.doe@gov-portal.demo",
+      "association_id": "assoc-1",
+      "department": "Public Administration",
+      "designation": "Senior Policy Analyst",
+      "active": true
+    },
+    {
+      "id": "emp-2",
+      "employee_id": "EMP-10045",
+      "full_name": "Marcus Chen",
+      "email": "marcus.chen@gov-portal.demo",
+      "association_id": "assoc-1",
+      "department": "Revenue & Audit",
+      "designation": "Principal Officer",
+      "active": true
+    },
+    {
+      "id": "emp-3",
+      "employee_id": "EMP-10078",
+      "full_name": "Elena Rostova",
+      "email": "elena.rostova@gov-portal.demo",
+      "association_id": "assoc-1",
+      "department": "Judicial Services",
+      "designation": "Senior Legal Officer",
+      "active": true
+    },
+    {
+      "id": "emp-4",
+      "employee_id": "EMP-10099",
+      "full_name": "Samuel Osei",
+      "email": "samuel.osei@gov-portal.demo",
+      "association_id": "assoc-1",
+      "department": "Transportation Oversight",
+      "designation": "Operations Lead",
+      "active": true
+    },
+    {
+      "id": "emp-5",
+      "employee_id": "EMP-20011",
+      "full_name": "Sarah Jenkins",
+      "email": "sarah.jenkins@gov-portal.demo",
+      "association_id": "assoc-2",
+      "department": "Secondary Education",
+      "designation": "Department Head",
+      "active": true
+    },
+    {
+      "id": "emp-6",
+      "employee_id": "EMP-20034",
+      "full_name": "Carlos Mendez",
+      "email": "carlos.mendez@gov-portal.demo",
+      "association_id": "assoc-2",
+      "department": "STEM Curriculum",
+      "designation": "Lead Science Educator",
+      "active": true
+    },
+    {
+      "id": "emp-7",
+      "employee_id": "EMP-20082",
+      "full_name": "Priya Sharma",
+      "email": "priya.sharma@gov-portal.demo",
+      "association_id": "assoc-2",
+      "department": "Special Education",
+      "designation": "Instructional Specialist",
+      "active": true
+    },
+    {
+      "id": "emp-8",
+      "employee_id": "EMP-30088",
+      "full_name": "David Miller",
+      "email": "david.miller@gov-portal.demo",
+      "association_id": "assoc-3",
+      "department": "Urban Planning",
+      "designation": "Zoning Supervisor",
+      "active": true
+    },
+    {
+      "id": "emp-9",
+      "employee_id": "EMP-30104",
+      "full_name": "Fatima Al-Mansoor",
+      "email": "fatima.m@gov-portal.demo",
+      "association_id": "assoc-3",
+      "department": "Public Works",
+      "designation": "Maintenance Director",
+      "active": true
+    },
+    {
+      "id": "emp-10",
+      "employee_id": "EMP-40015",
+      "full_name": "Dr. Gregory House",
+      "email": "greg.h@gov-portal.demo",
+      "association_id": "assoc-4",
+      "department": "Epidemiology",
+      "designation": "Chief Medical Specialist",
+      "active": true
+    },
+    {
+      "id": "emp-11",
+      "employee_id": "EMP-40042",
+      "full_name": "Amina Diallo",
+      "email": "amina.d@gov-portal.demo",
+      "association_id": "assoc-4",
+      "department": "Community Health",
+      "designation": "Supervising Nurse Practitioner",
+      "active": true
+    },
+    {
+      "id": "emp-12",
+      "employee_id": "EMP-50009",
+      "full_name": "Hiroshi Tanaka",
+      "email": "tanaka.h@gov-portal.demo",
+      "association_id": "assoc-5",
+      "department": "Civil Infrastructure",
+      "designation": "Principal Structural Engineer",
+      "active": true
+    },
+    {
+      "id": "emp-13",
+      "employee_id": "EMP-50033",
+      "full_name": "Rachel Adams",
+      "email": "rachel.a@gov-portal.demo",
+      "association_id": "assoc-5",
+      "department": "Water & Environmental",
+      "designation": "Project Manager",
+      "active": true
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin",
+      "email": "admin@gov-portal.demo",
+      "password_hash": "f439a0696685043912f05fff7dd9fcb4e87b1425ae7ec2bea970c353cefde27ddcfa06c8e2d226c64435737692f73e997658f98827f0e2eb5ea70c332394a86f",
+      "password_salt": "1522b74cdeba2afbe0aba3dcbe204848",
+      "full_name": "Chief Commissioner Sterling",
+      "account_role": "PLATFORM_ADMIN",
+      "association_id": "assoc-1",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "identity_verified": true,
+      "verification_status": "VERIFIED",
+      "verification_method": "MANUAL_OFFICIAL_REVIEW",
+      "created_at": "2026-07-10T13:54:47.353Z"
+    },
+    {
+      "id": "usr-official-1",
+      "email": "official@gov-portal.demo",
+      "password_hash": "a4317237c838fc67db57603d033dce8d4065a6416eaf71913b10b69d08e96b7cec05e54d7c9af615f5174ac6196e46ba40194f4d98cb583310015da333240cbc",
+      "password_salt": "6eb799b7967caaa5bb910009039b549c",
+      "full_name": "Electoral Officer Davis",
+      "account_role": "OFFICIAL",
+      "association_id": "assoc-1",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "authorized_association_ids": [
+        "assoc-1",
+        "assoc-2"
+      ],
+      "identity_verified": true,
+      "verification_status": "VERIFIED",
+      "verification_method": "MANUAL_OFFICIAL_REVIEW",
+      "created_at": "2026-07-20T13:54:47.353Z"
+    },
+    {
+      "id": "usr-official-pending",
+      "email": "pending.official@gov-portal.demo",
+      "password_hash": "90ef8d517919cbfee2cf177213d88d8ffab20e7b6703af5664d561ccba451951e8aa3b3d03428d90e473422810b95c5b76a8debc8b910086c2340601d3c6a7c2",
+      "password_salt": "b51cfec70c72c456202aa451c7afaf65",
+      "full_name": "Candidate Official Morales",
+      "account_role": "OFFICIAL",
+      "association_id": "assoc-3",
+      "account_status": "PENDING",
+      "approval_status": "PENDING",
+      "authorized_association_ids": [],
+      "identity_verified": false,
+      "verification_status": "PENDING_REVIEW",
+      "created_at": "2026-10-17T13:54:47.353Z"
+    },
+    {
+      "id": "usr-part-1",
+      "email": "jane.doe@gov-portal.demo",
+      "password_hash": "90ef8d517919cbfee2cf177213d88d8ffab20e7b6703af5664d561ccba451951e8aa3b3d03428d90e473422810b95c5b76a8debc8b910086c2340601d3c6a7c2",
+      "password_salt": "b51cfec70c72c456202aa451c7afaf65",
+      "full_name": "Jane Doe",
+      "account_role": "PARTICIPANT",
+      "association_id": "assoc-1",
+      "employee_id": "EMP-10023",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "identity_verified": true,
+      "verification_status": "VERIFIED",
+      "verification_method": "SIMULATED_FACIAL",
+      "created_at": "2026-08-19T13:54:47.353Z"
+    },
+    {
+      "id": "usr-part-2",
+      "email": "marcus.chen@gov-portal.demo",
+      "password_hash": "90ef8d517919cbfee2cf177213d88d8ffab20e7b6703af5664d561ccba451951e8aa3b3d03428d90e473422810b95c5b76a8debc8b910086c2340601d3c6a7c2",
+      "password_salt": "b51cfec70c72c456202aa451c7afaf65",
+      "full_name": "Marcus Chen",
+      "account_role": "PARTICIPANT",
+      "association_id": "assoc-1",
+      "employee_id": "EMP-10045",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "identity_verified": true,
+      "verification_status": "VERIFIED",
+      "verification_method": "SIMULATED_FACIAL",
+      "created_at": "2026-08-29T13:54:47.353Z"
+    },
+    {
+      "id": "usr-part-3",
+      "email": "sarah.jenkins@gov-portal.demo",
+      "password_hash": "90ef8d517919cbfee2cf177213d88d8ffab20e7b6703af5664d561ccba451951e8aa3b3d03428d90e473422810b95c5b76a8debc8b910086c2340601d3c6a7c2",
+      "password_salt": "b51cfec70c72c456202aa451c7afaf65",
+      "full_name": "Sarah Jenkins",
+      "account_role": "PARTICIPANT",
+      "association_id": "assoc-2",
+      "employee_id": "EMP-20011",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "identity_verified": true,
+      "verification_status": "VERIFIED",
+      "created_at": "2026-10-08T13:54:47.353Z",
+      "verification_method": "MANUAL_OFFICIAL_REVIEW"
+    },
+    {
+      "id": "usr-part-4",
+      "email": "david.miller@gov-portal.demo",
+      "password_hash": "90ef8d517919cbfee2cf177213d88d8ffab20e7b6703af5664d561ccba451951e8aa3b3d03428d90e473422810b95c5b76a8debc8b910086c2340601d3c6a7c2",
+      "password_salt": "b51cfec70c72c456202aa451c7afaf65",
+      "full_name": "David Miller",
+      "account_role": "PARTICIPANT",
+      "association_id": "assoc-3",
+      "employee_id": "EMP-30088",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "identity_verified": true,
+      "verification_status": "VERIFIED",
+      "verification_method": "SIMULATED_FACIAL",
+      "created_at": "2026-09-08T13:54:47.353Z"
+    },
+    {
+      "id": "usr-61283832-9cce-4bd8-97ea-640650573768",
+      "email": "25u41a4238@diet.edu.in",
+      "password_hash": "f351154fa31b985b3ce1aeb3fc1c885b1d40c88bbec56cf7ef19299dfb79d5a452ad5e39531e4cca15d87f2e706699c4e15b4b6c03ecb9007edc9259430c0895",
+      "password_salt": "da87467654f1765dad3730f75002b46d",
+      "full_name": "karthik",
+      "contact_number": "8125353802",
+      "account_role": "OFFICIAL",
+      "association_id": "assoc-1",
+      "account_status": "ACTIVE",
+      "approval_status": "APPROVED",
+      "identity_verified": false,
+      "verification_status": "UNVERIFIED",
+      "authorized_association_ids": [
+        "assoc-1"
+      ],
+      "created_at": "2026-10-18T14:16:48.931Z"
+    }
+  ],
+  "elections": [
+    {
+      "id": "elec-gea-2026",
+      "title": "2026 GEA Executive Council Election",
+      "description": "Official general election for President and General Secretary of the Government Employees Association.",
+      "association_ids": [
+        "assoc-1"
+      ],
+      "positions": [
+        {
+          "id": "pos-gea-pres",
+          "election_id": "elec-gea-2026",
+          "title": "Association President",
+          "number_of_seats": 1,
+          "instructions": "Select one candidate to lead the executive council and represent civil servant interests."
+        }
+      ],
+      "status": "VOTING_OPEN",
+      "nomination_start": "2026-10-04T13:54:47.353Z",
+      "nomination_end": "2026-10-13T13:54:47.353Z",
+      "voting_start": "2026-10-16T13:54:47.353Z",
+      "voting_end": "2026-10-21T13:54:47.353Z",
+      "eligibility_requirements": "Must be an active permanent civil servant registered under GEA with minimum 1 year of service.",
+      "instructions": "Electronic voting is confidential. Each eligible employee may cast exactly one vote.",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "published_at": "2026-10-03T13:54:47.353Z",
+      "created_at": "2026-09-28T13:54:47.353Z",
+      "eligible_employee_ids": [
+        "EMP-10023",
+        "EMP-10045",
+        "EMP-10078",
+        "EMP-10099"
+      ],
+      "total_eligible_voters": 4,
+      "total_voters_participated": 1,
+      "approved_candidates_count": 2
+    },
+    {
+      "id": "elec-ta-welfare",
+      "title": "Teachers Association Welfare Committee Representative",
+      "description": "Nominate and elect teachers representative for provincial education welfare board.",
+      "association_ids": [
+        "assoc-2"
+      ],
+      "positions": [
+        {
+          "id": "pos-ta-rep",
+          "election_id": "elec-ta-welfare",
+          "title": "Welfare Committee Delegate",
+          "number_of_seats": 1,
+          "instructions": "Cast vote for the delegate representing certified educators."
+        }
+      ],
+      "status": "NOMINATION_OPEN",
+      "nomination_start": "2026-10-15T13:54:47.353Z",
+      "nomination_end": "2026-10-22T13:54:47.353Z",
+      "voting_start": "2026-10-24T13:54:47.353Z",
+      "voting_end": "2026-10-28T13:54:47.353Z",
+      "eligibility_requirements": "Certified teachers belonging to the Teachers Association with active school posting.",
+      "instructions": "Nominations are actively being received. Verified members may submit their candidacy proposals.",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "published_at": "2026-10-14T13:54:47.353Z",
+      "created_at": "2026-10-13T13:54:47.353Z",
+      "eligible_employee_ids": [
+        "EMP-20011",
+        "EMP-20034",
+        "EMP-20082"
+      ],
+      "total_eligible_voters": 3,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 1
+    },
+    {
+      "id": "elec-mea-2025",
+      "title": "Municipal Employees Association Annual Representative Election",
+      "description": "Concluded official election for Urban Municipal Workers Oversight Council.",
+      "association_ids": [
+        "assoc-3"
+      ],
+      "positions": [
+        {
+          "id": "pos-mea-lead",
+          "election_id": "elec-mea-2025",
+          "title": "Municipal Council Chair",
+          "number_of_seats": 1,
+          "instructions": "Single representative seat."
+        }
+      ],
+      "status": "RESULTS_PUBLISHED",
+      "nomination_start": "2026-09-18T13:54:47.353Z",
+      "nomination_end": "2026-09-28T13:54:47.353Z",
+      "voting_start": "2026-10-03T13:54:47.353Z",
+      "voting_end": "2026-10-13T13:54:47.353Z",
+      "eligibility_requirements": "All confirmed municipal staff members.",
+      "instructions": "Final certified results published by the Board of Scrutineers.",
+      "created_by": "usr-admin",
+      "created_by_name": "Chief Commissioner Sterling",
+      "published_at": "2026-09-13T13:54:47.353Z",
+      "created_at": "2026-09-08T13:54:47.353Z",
+      "eligible_employee_ids": [
+        "EMP-30088",
+        "EMP-30104"
+      ],
+      "total_eligible_voters": 2,
+      "total_voters_participated": 2,
+      "approved_candidates_count": 2
+    },
+    {
+      "id": "elec-phea-draft",
+      "title": "Public Health Clinical Officers Board (Draft)",
+      "description": "Upcoming election for clinical standards representative. Currently in configuration.",
+      "association_ids": [
+        "assoc-4"
+      ],
+      "positions": [
+        {
+          "id": "pos-phea-officer",
+          "election_id": "elec-phea-draft",
+          "title": "Clinical Standards Representative",
+          "number_of_seats": 1,
+          "instructions": "Draft stage."
+        }
+      ],
+      "status": "NOMINATION_OPEN",
+      "nomination_start": "2026-10-23T13:54:47.353Z",
+      "nomination_end": "2026-10-30T13:54:47.353Z",
+      "voting_start": "2026-11-01T13:54:47.353Z",
+      "voting_end": "2026-11-07T13:54:47.353Z",
+      "eligibility_requirements": "Clinical and nursing personnel of PHEA.",
+      "instructions": "Draft instructions under administrative review.",
+      "created_by": "usr-admin",
+      "created_by_name": "Chief Commissioner Sterling",
+      "created_at": "2026-10-17T13:54:47.353Z",
+      "eligible_employee_ids": [
+        "EMP-40015",
+        "EMP-40042"
+      ],
+      "total_eligible_voters": 2,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 0,
+      "published_at": "2026-10-18T14:26:04.758Z"
+    },
+    {
+      "id": "elec-3ba1496f-7595-4de8-9e61-de4c684dcbc5",
+      "title": "2026 GEA Regional Welfare Council Election",
+      "description": "Elect regional delegates representing member interests and health benefits.",
+      "association_ids": [
+        "assoc-1"
+      ],
+      "positions": [
+        {
+          "id": "pos-reg-1",
+          "election_id": "elec-3ba1496f-7595-4de8-9e61-de4c684dcbc5",
+          "title": "Regional Welfare Delegate",
+          "number_of_seats": 1,
+          "instructions": ""
+        }
+      ],
+      "status": "NOMINATION_OPEN",
+      "nomination_start": "2026-10-18T14:00:00.000Z",
+      "nomination_end": "2026-10-25T14:00:00.000Z",
+      "voting_start": "2026-10-26T14:00:00.000Z",
+      "voting_end": "2026-10-30T14:00:00.000Z",
+      "eligibility_requirements": "",
+      "instructions": "",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "published_at": "2026-10-18T14:05:56.104Z",
+      "created_at": "2026-10-18T14:05:56.104Z",
+      "eligible_employee_ids": [
+        "EMP-10023",
+        "EMP-10045"
+      ],
+      "total_eligible_voters": 2,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 0
+    },
+    {
+      "id": "elec-2f0f284c-3e84-44bd-9135-e9d0a9f0b530",
+      "title": "Presedint elections",
+      "description": "asdf",
+      "association_ids": [
+        "assoc-1"
+      ],
+      "positions": [
+        {
+          "id": "pos-1",
+          "election_id": "elec-2f0f284c-3e84-44bd-9135-e9d0a9f0b530",
+          "title": "Association President",
+          "number_of_seats": 1,
+          "instructions": "Single seat executive council leadership"
+        }
+      ],
+      "status": "DRAFT",
+      "nomination_start": "2026-10-18T19:39:00.000Z",
+      "nomination_end": "2026-10-18T19:45:00.000Z",
+      "voting_start": "2026-10-18T19:50:00.000Z",
+      "voting_end": "2026-10-18T20:00:00.000Z",
+      "eligibility_requirements": "All active permanent association members with verified credentials.",
+      "instructions": "Mark your single chosen candidate on the electronic ballot. All votes are anonymous.",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "created_at": "2026-10-18T14:10:44.432Z",
+      "eligible_employee_ids": [
+        "EMP-10023",
+        "EMP-10045",
+        "EMP-10078",
+        "EMP-10099",
+        "EMP-10036"
+      ],
+      "total_eligible_voters": 5,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 0
+    },
+    {
+      "id": "elec-38eb2860-632d-4ea5-b516-5c6225b20832",
+      "title": "2026 GEA General Executive Council Election",
+      "description": "Test election",
+      "association_ids": [
+        "assoc-1"
+      ],
+      "positions": [
+        {
+          "id": "pos-1",
+          "election_id": "elec-38eb2860-632d-4ea5-b516-5c6225b20832",
+          "title": "Association President",
+          "number_of_seats": 1,
+          "instructions": "Single seat"
+        }
+      ],
+      "status": "NOMINATION_OPEN",
+      "nomination_start": "2026-10-18T07:23:00.000Z",
+      "nomination_end": "2026-10-23T07:23:00.000Z",
+      "voting_start": "2026-10-24T07:23:00.000Z",
+      "voting_end": "2026-10-28T07:23:00.000Z",
+      "eligibility_requirements": "All members",
+      "instructions": "Vote once",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "published_at": "2026-10-18T14:23:59.389Z",
+      "created_at": "2026-10-18T14:23:59.389Z",
+      "eligible_employee_ids": [
+        "EMP-10023"
+      ],
+      "total_eligible_voters": 1,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 0
+    },
+    {
+      "id": "elec-74b0abc1-42af-4dda-a752-9cf602fd838d",
+      "title": "2026 GEA Live Voting Test Election",
+      "description": "",
+      "association_ids": [
+        "assoc-1"
+      ],
+      "positions": [
+        {
+          "id": "pos-elec-74b0abc1-42af-4dda-a752-9cf602fd838d-1",
+          "title": "Association President",
+          "number_of_seats": 1,
+          "instructions": "Vote for one candidate"
+        }
+      ],
+      "status": "VOTING_OPEN",
+      "nomination_start": "2026-10-11T14:30:22.471Z",
+      "nomination_end": "2026-10-18T14:30:21.471Z",
+      "voting_start": "2026-10-18T14:30:21.471Z",
+      "voting_end": "2026-10-25T14:30:22.471Z",
+      "eligibility_requirements": "Active permanent association members in good standing.",
+      "instructions": "Select one authorized candidate per contested position.",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "published_at": "2026-10-18T14:30:22.471Z",
+      "created_at": "2026-10-18T14:30:22.471Z",
+      "eligible_employee_ids": [
+        "EMP-10023",
+        "EMP-10045",
+        "EMP-10078",
+        "EMP-10099"
+      ],
+      "total_eligible_voters": 4,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 2
+    },
+    {
+      "id": "elec-68ed696e-88eb-470f-9717-6961cb394f41",
+      "title": "2026 GEA National Delegate Election",
+      "description": "",
+      "association_ids": [
+        "assoc-1"
+      ],
+      "positions": [
+        {
+          "id": "pos-elec-68ed696e-88eb-470f-9717-6961cb394f41-1",
+          "title": "Association President",
+          "number_of_seats": 1,
+          "instructions": "Vote for one candidate"
+        }
+      ],
+      "status": "VOTING_OPEN",
+      "nomination_start": "2026-10-11T14:31:34.610Z",
+      "nomination_end": "2026-10-18T14:31:33.610Z",
+      "voting_start": "2026-10-18T14:31:33.610Z",
+      "voting_end": "2026-10-25T14:31:34.610Z",
+      "eligibility_requirements": "Active permanent association members in good standing.",
+      "instructions": "Select one authorized candidate per contested position.",
+      "created_by": "usr-official-1",
+      "created_by_name": "Electoral Officer Davis",
+      "published_at": "2026-10-18T14:31:34.610Z",
+      "created_at": "2026-10-18T14:31:34.610Z",
+      "eligible_employee_ids": [
+        "EMP-10023",
+        "EMP-10045",
+        "EMP-10078",
+        "EMP-10099"
+      ],
+      "total_eligible_voters": 4,
+      "total_voters_participated": 0,
+      "approved_candidates_count": 2
+    }
+  ],
+  "candidate_applications": [
+    {
+      "id": "app-1",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10045",
+      "candidate_name": "Marcus Chen",
+      "statement_of_purpose": "Advocate for modern workplace flexibility, career progression ladders, and modernized benefits for civil servants.",
+      "qualifications": "14 years service in Revenue & Audit. Master of Public Administration.",
+      "required_declarations": true,
+      "status": "APPROVED",
+      "submitted_at": "2026-10-08T13:54:47.353Z",
+      "reviewed_by": "usr-official-1",
+      "reviewed_at": "2026-10-10T13:54:47.353Z"
+    },
+    {
+      "id": "app-2",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10078",
+      "candidate_name": "Elena Rostova",
+      "statement_of_purpose": "Dedication to transparent arbitration, judicial fairness, and legal advocacy for all government employees.",
+      "qualifications": "Senior Legal Officer, 11 years in Judicial Services. LLM in Labor Law.",
+      "required_declarations": true,
+      "status": "APPROVED",
+      "submitted_at": "2026-10-09T13:54:47.353Z",
+      "reviewed_by": "usr-official-1",
+      "reviewed_at": "2026-10-10T13:54:47.353Z"
+    },
+    {
+      "id": "app-3",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10099",
+      "candidate_name": "Samuel Osei",
+      "statement_of_purpose": "Modern infrastructure and mental health support for logistics teams.",
+      "qualifications": "Operations Lead, Transportation Oversight.",
+      "required_declarations": true,
+      "status": "REJECTED",
+      "rejection_reason": "Incomplete documentation of departmental seniority requirements for presidential nominations.",
+      "submitted_at": "2026-10-11T13:54:47.353Z",
+      "reviewed_by": "usr-official-1",
+      "reviewed_at": "2026-10-12T13:54:47.353Z"
+    },
+    {
+      "id": "app-4",
+      "election_id": "elec-ta-welfare",
+      "position_id": "pos-ta-rep",
+      "employee_id": "EMP-20034",
+      "candidate_name": "Carlos Mendez",
+      "statement_of_purpose": "Enhance classroom resources, grant funding for STEM projects, and teacher wellness retreats.",
+      "qualifications": "Lead Science Educator with 9 years classroom excellence.",
+      "required_declarations": true,
+      "status": "APPROVED",
+      "submitted_at": "2026-10-16T13:54:47.353Z",
+      "reviewed_by": "usr-official-1",
+      "reviewed_at": "2026-10-17T13:54:47.353Z"
+    },
+    {
+      "id": "app-5",
+      "election_id": "elec-ta-welfare",
+      "position_id": "pos-ta-rep",
+      "employee_id": "EMP-20082",
+      "candidate_name": "Priya Sharma",
+      "statement_of_purpose": "Champion inclusive curriculum, special education staffing, and fair duty allowances.",
+      "qualifications": "Instructional Specialist, 8 years dedicated education advocacy.",
+      "required_declarations": true,
+      "status": "PENDING",
+      "submitted_at": "2026-10-17T13:54:47.353Z"
+    },
+    {
+      "id": "app-6",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "employee_id": "EMP-30088",
+      "candidate_name": "David Miller",
+      "statement_of_purpose": "Equitable zone planning, safety equipment upgrades, and municipal worker pensions.",
+      "qualifications": "Zoning Supervisor, 16 years experience in municipal engineering.",
+      "required_declarations": true,
+      "status": "APPROVED",
+      "submitted_at": "2026-09-20T13:54:47.353Z",
+      "reviewed_by": "usr-admin",
+      "reviewed_at": "2026-09-22T13:54:47.353Z"
+    },
+    {
+      "id": "app-7",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "employee_id": "EMP-30104",
+      "candidate_name": "Fatima Al-Mansoor",
+      "statement_of_purpose": "Focus on public works safety protocols, apprentice programs, and green municipal services.",
+      "qualifications": "Maintenance Director, Certified City Planner.",
+      "required_declarations": true,
+      "status": "APPROVED",
+      "submitted_at": "2026-09-21T13:54:47.353Z",
+      "reviewed_by": "usr-admin",
+      "reviewed_at": "2026-09-22T13:54:47.353Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cand-1",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10045",
+      "candidate_name": "Marcus Chen",
+      "statement_of_purpose": "Advocate for modern workplace flexibility, career progression ladders, and modernized benefits for civil servants.",
+      "qualifications": "14 years service in Revenue & Audit. Master of Public Administration.",
+      "application_id": "app-1",
+      "approval_status": "APPROVED"
+    },
+    {
+      "id": "cand-2",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10078",
+      "candidate_name": "Elena Rostova",
+      "statement_of_purpose": "Dedication to transparent arbitration, judicial fairness, and legal advocacy for all government employees.",
+      "qualifications": "Senior Legal Officer, 11 years in Judicial Services. LLM in Labor Law.",
+      "application_id": "app-2",
+      "approval_status": "APPROVED"
+    },
+    {
+      "id": "cand-3",
+      "election_id": "elec-ta-welfare",
+      "position_id": "pos-ta-rep",
+      "employee_id": "EMP-20034",
+      "candidate_name": "Carlos Mendez",
+      "statement_of_purpose": "Enhance classroom resources, grant funding for STEM projects, and teacher wellness retreats.",
+      "qualifications": "Lead Science Educator with 9 years classroom excellence.",
+      "application_id": "app-4",
+      "approval_status": "APPROVED"
+    },
+    {
+      "id": "cand-4",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "employee_id": "EMP-30088",
+      "candidate_name": "David Miller",
+      "statement_of_purpose": "Equitable zone planning, safety equipment upgrades, and municipal worker pensions.",
+      "qualifications": "Zoning Supervisor, 16 years experience in municipal engineering.",
+      "application_id": "app-6",
+      "approval_status": "APPROVED"
+    },
+    {
+      "id": "cand-5",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "employee_id": "EMP-30104",
+      "candidate_name": "Fatima Al-Mansoor",
+      "statement_of_purpose": "Focus on public works safety protocols, apprentice programs, and green municipal services.",
+      "qualifications": "Maintenance Director, Certified City Planner.",
+      "application_id": "app-7",
+      "approval_status": "APPROVED"
+    },
+    {
+      "id": "cand-3105698a-e512-411e-b420-2c7a34e435f1",
+      "election_id": "elec-74b0abc1-42af-4dda-a752-9cf602fd838d",
+      "position_id": "pos-elec-74b0abc1-42af-4dda-a752-9cf602fd838d-1",
+      "user_id": "usr-demo-cand-1",
+      "employee_id": "EMP-10023",
+      "full_name": "Jane Doe",
+      "association_id": "assoc-1",
+      "bio": "Dedicated civil servant with 12 years of experience in Public Administration. Pledging transparent governance and stronger worker representation.",
+      "manifesto": "Accountability, enhanced workplace benefits, and structured collective bargaining.",
+      "status": "APPROVED",
+      "submitted_at": "2026-10-15T14:30:22.471Z",
+      "reviewed_at": "2026-10-17T14:30:22.471Z",
+      "votes_count": 0
+    },
+    {
+      "id": "cand-141331c1-b779-4e4f-ac9d-b16d02522c97",
+      "election_id": "elec-74b0abc1-42af-4dda-a752-9cf602fd838d",
+      "position_id": "pos-elec-74b0abc1-42af-4dda-a752-9cf602fd838d-1",
+      "user_id": "usr-demo-cand-2",
+      "employee_id": "EMP-10045",
+      "full_name": "Marcus Chen",
+      "association_id": "assoc-1",
+      "bio": "Senior officer in Revenue & Audit. Focused on digital modernization, fair remuneration, and healthcare coverage.",
+      "manifesto": "Modern infrastructure, staff welfare, and professional development grants.",
+      "status": "APPROVED",
+      "submitted_at": "2026-10-15T14:30:22.471Z",
+      "reviewed_at": "2026-10-17T14:30:22.471Z",
+      "votes_count": 0
+    },
+    {
+      "id": "cand-a2c85e34-45ef-49bf-87f5-6d9634241f2e",
+      "election_id": "elec-68ed696e-88eb-470f-9717-6961cb394f41",
+      "position_id": "pos-elec-68ed696e-88eb-470f-9717-6961cb394f41-1",
+      "employee_id": "EMP-10023",
+      "candidate_name": "Jane Doe",
+      "statement_of_purpose": "Accountability, enhanced workplace benefits, and structured collective bargaining.",
+      "qualifications": "Senior Officer with 12 years in Public Administration.",
+      "application_id": "app-cfc5d3d6-bc26-4aa1-8f40-93a1c0aeef90",
+      "approval_status": "APPROVED"
+    },
+    {
+      "id": "cand-8293b677-bc66-4383-8691-bfb02a9b9a87",
+      "election_id": "elec-68ed696e-88eb-470f-9717-6961cb394f41",
+      "position_id": "pos-elec-68ed696e-88eb-470f-9717-6961cb394f41-1",
+      "employee_id": "EMP-10045",
+      "candidate_name": "Marcus Chen",
+      "statement_of_purpose": "Modern infrastructure, staff welfare, and professional development grants.",
+      "qualifications": "Operations Director in Revenue & Audit.",
+      "application_id": "app-27341ed3-87c0-4787-a9e8-450767485de3",
+      "approval_status": "APPROVED"
+    }
+  ],
+  "voter_participation": [
+    {
+      "id": "part-1",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10045",
+      "submitted_at": "2026-10-17T13:54:47.353Z",
+      "confirmation_reference": "GOV-VOTE-2026-X89F2A"
+    },
+    {
+      "id": "part-2",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "employee_id": "EMP-30088",
+      "submitted_at": "2026-10-08T13:54:47.353Z",
+      "confirmation_reference": "GOV-VOTE-2025-M33B91"
+    },
+    {
+      "id": "part-3",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "employee_id": "EMP-30104",
+      "submitted_at": "2026-10-09T13:54:47.353Z",
+      "confirmation_reference": "GOV-VOTE-2025-N44C82"
+    },
+    {
+      "id": "part-ba57b7d7-bb7b-40cc-a6f7-68afd3daee44",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "employee_id": "EMP-10023",
+      "submitted_at": "2026-10-18T14:12:00.259Z",
+      "confirmation_reference": "GOV-VOTE-2026-B656BF4C"
+    }
+  ],
+  "ballots": [
+    {
+      "id": "bal-1",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "candidate_id": "cand-1",
+      "ballot_reference": "03de1f6ef0dfeb14059459bf4e9f3938",
+      "submitted_at": "2026-10-17T13:56:47.353Z"
+    },
+    {
+      "id": "bal-2",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "candidate_id": "cand-4",
+      "ballot_reference": "cd13b1a4846472448c13a857b13ec455",
+      "submitted_at": "2026-10-08T13:55:32.353Z"
+    },
+    {
+      "id": "bal-3",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "candidate_id": "cand-4",
+      "ballot_reference": "8c33ff931f01c868872ba3a6f6316af8",
+      "submitted_at": "2026-10-09T13:56:17.353Z"
+    },
+    {
+      "id": "bal-3c2ed0ef-a549-442a-a747-c79715f6d2df",
+      "election_id": "elec-gea-2026",
+      "position_id": "pos-gea-pres",
+      "candidate_id": "cand-1",
+      "ballot_reference": "7bf79162e1275888d8ae6c4e4bd507c9",
+      "submitted_at": "2026-10-18T14:12:00.259Z"
+    }
+  ],
+  "election_results": [
+    {
+      "id": "res-mea-2025",
+      "election_id": "elec-mea-2025",
+      "position_id": "pos-mea-lead",
+      "candidate_results": [
+        {
+          "candidate_id": "cand-4",
+          "candidate_name": "David Miller",
+          "position_id": "pos-mea-lead",
+          "votes": 2,
+          "vote_percentage": 100,
+          "is_winner": true
+        },
+        {
+          "candidate_id": "cand-5",
+          "candidate_name": "Fatima Al-Mansoor",
+          "position_id": "pos-mea-lead",
+          "votes": 0,
+          "vote_percentage": 0,
+          "is_winner": false
+        }
+      ],
+      "total_valid_ballots": 2,
+      "total_eligible": 2,
+      "turnout_percentage": 100,
+      "published_at": "2026-10-14T13:54:47.353Z",
+      "published_by": "usr-admin",
+      "published_by_name": "Chief Commissioner Sterling",
+      "status": "PUBLISHED"
+    }
+  ],
+  "notifications": [
+    {
+      "recipient_role": "PARTICIPANT",
+      "title": "New Election Published: 2026 GEA National Delegate Election",
+      "message": "Nominations or voting are now being scheduled for 2026 GEA National Delegate Election. Check your eligibility to participate.",
+      "notification_type": "ELECTION_PUBLISHED",
+      "related_election_id": "elec-68ed696e-88eb-470f-9717-6961cb394f41",
+      "is_read": false,
+      "id": "notif-11f6569d-526c-4782-b140-9eb29300efb5",
+      "created_at": "2026-10-18T14:31:34.612Z"
+    },
+    {
+      "recipient_role": "PARTICIPANT",
+      "title": "New Election Published: 2026 GEA Live Voting Test Election",
+      "message": "Nominations or voting are now being scheduled for 2026 GEA Live Voting Test Election. Check your eligibility to participate.",
+      "notification_type": "ELECTION_PUBLISHED",
+      "related_election_id": "elec-74b0abc1-42af-4dda-a752-9cf602fd838d",
+      "is_read": false,
+      "id": "notif-1e257bab-bb19-4677-9c2c-47ff177176fe",
+      "created_at": "2026-10-18T14:30:22.474Z"
+    },
+    {
+      "recipient_user_id": "usr-part-3",
+      "title": "Manual Verification Approved",
+      "message": "An election official has confirmed your employee identity. You may now participate in eligible elections.",
+      "notification_type": "VERIFICATION",
+      "is_read": false,
+      "id": "notif-d20c2e7c-eefb-4866-8cde-7a715033c6cd",
+      "created_at": "2026-10-18T14:27:24.550Z"
+    },
+    {
+      "recipient_role": "PARTICIPANT",
+      "title": "Official Election Published: Public Health Clinical Officers Board (Draft)",
+      "message": "The election \"Public Health Clinical Officers Board (Draft)\" has been published by election officials and is now open for association members.",
+      "notification_type": "ELECTION_PUBLISHED",
+      "related_election_id": "elec-phea-draft",
+      "is_read": false,
+      "id": "notif-7b2e9b32-f61e-497a-bc76-e5135b54936f",
+      "created_at": "2026-10-18T14:26:04.759Z"
+    },
+    {
+      "recipient_role": "PARTICIPANT",
+      "title": "New Election Published: 2026 GEA General Executive Council Election",
+      "message": "Nominations or voting are now being scheduled for 2026 GEA General Executive Council Election. Check your eligibility to participate.",
+      "notification_type": "ELECTION_PUBLISHED",
+      "related_election_id": "elec-38eb2860-632d-4ea5-b516-5c6225b20832",
+      "is_read": false,
+      "id": "notif-871db028-9118-4f75-b027-eba180e4d379",
+      "created_at": "2026-10-18T14:23:59.389Z"
+    },
+    {
+      "recipient_user_id": "usr-61283832-9cce-4bd8-97ea-640650573768",
+      "title": "Official Account Authorization Approved",
+      "message": "Your Election Official credentials have been approved by the Platform Administrator.",
+      "notification_type": "REGISTRATION",
+      "is_read": true,
+      "id": "notif-7fc3da7c-b05c-4e7e-9941-8f0560b7a754",
+      "created_at": "2026-10-18T14:17:37.959Z"
+    },
+    {
+      "recipient_role": "PLATFORM_ADMIN",
+      "title": "New Official Account Request",
+      "message": "karthik has requested Election Official authorization for Government Employees Association.",
+      "notification_type": "OFFICIAL_REQUEST",
+      "is_read": true,
+      "id": "notif-edc2d658-a5ab-4c75-859c-7a6deec3e3ca",
+      "created_at": "2026-10-18T14:16:48.931Z"
+    },
+    {
+      "recipient_user_id": "usr-part-1",
+      "title": "Ballot Confirmed & Sealed",
+      "message": "Your anonymous vote has been counted. Confirmation receipt: GOV-VOTE-2026-B656BF4C. Keep this for your records.",
+      "notification_type": "VOTE_CONFIRMED",
+      "related_election_id": "elec-gea-2026",
+      "is_read": false,
+      "id": "notif-e2fc6d32-4e2a-4f0d-ae4d-58f9266118e7",
+      "created_at": "2026-10-18T14:12:00.259Z"
+    },
+    {
+      "recipient_role": "PARTICIPANT",
+      "title": "New Election Published: 2026 GEA Regional Welfare Council Election",
+      "message": "Nominations or voting are now being scheduled for 2026 GEA Regional Welfare Council Election. Check your eligibility to participate.",
+      "notification_type": "ELECTION_PUBLISHED",
+      "related_election_id": "elec-3ba1496f-7595-4de8-9e61-de4c684dcbc5",
+      "is_read": false,
+      "id": "notif-23eb4f19-3830-4722-b139-9242f637f657",
+      "created_at": "2026-10-18T14:05:56.105Z"
+    },
+    {
+      "id": "notif-1",
+      "recipient_user_id": "usr-part-1",
+      "title": "Voting Open: 2026 GEA Executive Council Election",
+      "message": "The official voting window is now open. Please complete identity verification and submit your vote before the deadline.",
+      "notification_type": "VOTING_OPENED",
+      "related_election_id": "elec-gea-2026",
+      "is_read": false,
+      "created_at": "2026-10-16T13:54:47.353Z"
+    },
+    {
+      "id": "notif-2",
+      "recipient_role": "OFFICIAL",
+      "title": "New Candidate Application Submitted",
+      "message": "Priya Sharma has submitted a nomination application for Teachers Association Welfare Committee Representative.",
+      "notification_type": "NOMINATION_SUBMITTED",
+      "related_election_id": "elec-ta-welfare",
+      "is_read": true,
+      "created_at": "2026-10-17T13:54:47.353Z"
+    },
+    {
+      "id": "notif-3",
+      "recipient_user_id": "usr-part-2",
+      "title": "Ballot Submission Recorded",
+      "message": "Your anonymous ballot for 2026 GEA Executive Council Election has been confirmed. Confirmation Reference: GOV-VOTE-2026-X89F2A.",
+      "notification_type": "VOTE_CONFIRMED",
+      "related_election_id": "elec-gea-2026",
+      "is_read": true,
+      "created_at": "2026-10-17T13:54:47.353Z"
+    },
+    {
+      "id": "notif-4",
+      "recipient_role": "PLATFORM_ADMIN",
+      "title": "Pending Election Official Approval Request",
+      "message": "Candidate Official Morales has requested Election Official authorization for Municipal Employees Association.",
+      "notification_type": "OFFICIAL_REQUEST",
+      "is_read": false,
+      "created_at": "2026-10-17T13:54:47.353Z"
+    }
+  ],
+  "verification_requests": [
+    {
+      "id": "vr-1",
+      "user_id": "usr-part-3",
+      "employee_id": "EMP-20011",
+      "full_name": "Sarah Jenkins",
+      "association_id": "assoc-2",
+      "reason": "Low camera light during simulated facial check. Official photo ID and employee service letter submitted.",
+      "document_type": "Government Employee Service Card & National ID",
+      "status": "APPROVED",
+      "created_at": "2026-10-17T13:54:47.353Z",
+      "reviewed_by": "usr-61283832-9cce-4bd8-97ea-640650573768",
+      "reviewed_at": "2026-10-18T14:27:24.549Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "CREATE_AND_PUBLISH_ELECTION",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-68ed696e-88eb-470f-9717-6961cb394f41",
+      "details": "Created election \"2026 GEA National Delegate Election\" with 4 eligible voters. Initial status: VOTING_OPEN.",
+      "id": "aud-fb3ea047-a8d9-4ffb-a64e-c86399091691",
+      "timestamp": "2026-10-18T14:31:34.611Z"
+    },
+    {
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "CREATE_AND_PUBLISH_ELECTION",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-74b0abc1-42af-4dda-a752-9cf602fd838d",
+      "details": "Created election \"2026 GEA Live Voting Test Election\" with 4 eligible voters. Initial status: VOTING_OPEN.",
+      "id": "aud-7a80e14d-872e-491c-9702-cec32e656ab2",
+      "timestamp": "2026-10-18T14:30:22.473Z"
+    },
+    {
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "PUBLISH_ELECTION",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-phea-draft",
+      "details": "Published election \"Public Health Clinical Officers Board (Draft)\". Active status: NOMINATION_OPEN.",
+      "id": "aud-1b56aac4-810c-44c1-9052-f1b30187e3ba",
+      "timestamp": "2026-10-18T14:26:04.758Z"
+    },
+    {
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "CREATE_AND_PUBLISH_ELECTION",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-38eb2860-632d-4ea5-b516-5c6225b20832",
+      "details": "Created election \"2026 GEA General Executive Council Election\" with 1 eligible voters.",
+      "id": "aud-66e2f587-7320-406c-89c9-48e429dddeaa",
+      "timestamp": "2026-10-18T14:23:59.389Z"
+    },
+    {
+      "actor_user_id": "usr-admin",
+      "actor_name": "Chief Commissioner Sterling",
+      "actor_role": "PLATFORM_ADMIN",
+      "action": "APPROVE_OFFICIAL_ACCOUNT",
+      "entity_type": "USER",
+      "entity_id": "usr-61283832-9cce-4bd8-97ea-640650573768",
+      "details": "Approved official credentials for karthik. Assigned associations: assoc-1.",
+      "id": "aud-d476a248-a28a-4e4a-ac55-ef2cf78f6dcf",
+      "timestamp": "2026-10-18T14:17:37.959Z"
+    },
+    {
+      "actor_user_id": "usr-part-1",
+      "actor_name": "Jane Doe",
+      "actor_role": "PARTICIPANT",
+      "action": "CAST_BALLOT",
+      "entity_type": "VOTER_PARTICIPATION",
+      "entity_id": "GOV-VOTE-2026-B656BF4C",
+      "details": "Voter cast anonymous ballot. Participation confirmed.",
+      "id": "aud-dde10a2d-d674-4538-adb3-f6b4abcd2ae5",
+      "timestamp": "2026-10-18T14:12:00.259Z"
+    },
+    {
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "CREATE_ELECTION_DRAFT",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-2f0f284c-3e84-44bd-9135-e9d0a9f0b530",
+      "details": "Created election \"Presedint elections\" with 5 eligible voters.",
+      "id": "aud-8630628c-d8e6-4e45-8e78-40d30e049bf1",
+      "timestamp": "2026-10-18T14:10:44.432Z"
+    },
+    {
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "CREATE_AND_PUBLISH_ELECTION",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-3ba1496f-7595-4de8-9e61-de4c684dcbc5",
+      "details": "Created election \"2026 GEA Regional Welfare Council Election\" with 2 eligible voters.",
+      "id": "aud-42595bb7-1bfb-4886-9c07-e5eda153b17b",
+      "timestamp": "2026-10-18T14:05:56.104Z"
+    },
+    {
+      "id": "aud-1",
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "PUBLISH_ELECTION",
+      "entity_type": "ELECTION",
+      "entity_id": "elec-gea-2026",
+      "timestamp": "2026-10-03T13:54:47.353Z",
+      "details": "Published 2026 GEA Executive Council Election with 4 eligible employees."
+    },
+    {
+      "id": "aud-2",
+      "actor_user_id": "usr-official-1",
+      "actor_name": "Electoral Officer Davis",
+      "actor_role": "OFFICIAL",
+      "action": "APPROVE_CANDIDATE",
+      "entity_type": "CANDIDATE_APPLICATION",
+      "entity_id": "app-1",
+      "timestamp": "2026-10-10T13:54:47.353Z",
+      "details": "Approved candidate application for Marcus Chen (EMP-10045)."
+    },
+    {
+      "id": "aud-3",
+      "actor_user_id": "usr-admin",
+      "actor_name": "Chief Commissioner Sterling",
+      "actor_role": "PLATFORM_ADMIN",
+      "action": "PUBLISH_RESULTS",
+      "entity_type": "ELECTION_RESULTS",
+      "entity_id": "elec-mea-2025",
+      "timestamp": "2026-10-14T13:54:47.353Z",
+      "details": "Certified and published official results for MEA Annual Representative Election."
+    }
+  ]
+}
